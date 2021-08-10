@@ -1,4 +1,4 @@
-# Simple Mail Transfer Protocol
+<h1 style = font-size: "50px" align="center"> Simple Mail Transfer Protocol </h1>
 
 Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Protocol. It is a protocol that allows you to send and receive emails. SMTP, which is a set of communication standards that enables applications to send electronic mail over the internet. It's an application that uses e-mail addresses to deliver messages to other computer users. It allows users on the same or separate computers to exchange email, and it also supports:
 *	It has the capability of sending a single message to one or many recipients.
