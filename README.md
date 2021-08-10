@@ -1,13 +1,12 @@
-<h1 style = font-size: "50px" align="center"> Simple Mail Transfer Protocol </h1>
+# Simple Mail Transfer Protocol
+
 
 Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Protocol. It is a protocol that allows you to send and receive emails. SMTP, which is a set of communication standards that enables applications to send electronic mail over the internet. It's an application that uses e-mail addresses to deliver messages to other computer users. It allows users on the same or separate computers to exchange email, and it also supports:
 *	It has the capability of sending a single message to one or many recipients.
 * Text, voice, video, or images can be used to send a message.
 *	It can also deliver messages through networks that are not connected to the internet.
 
-</p>
-<p align ="center">
-  <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png.webp" alt="SMTP Protocol"/></p>
+![SMTp Prptocol](https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png.webp)
 
 SMTP's primary function is to establish communication rules between servers. The servers can identify themselves and announce the type of communication they are attempting. They also have a system in place to deal with mistakes like wrong email addresses. If the recipient address is incorrect, for example, the receiving server will respond with some sort of error message.  An email sent over an SMTP server is known as an SMTP email. Messages are retrieved from the receiver's side using POP (Post office protocol) or IMAP (Internet message protocol). SMTP is a protocol for sending emails from one domain to another that is not the user's domain. It's used to address difficulties like email IP blacklisting and deliverability, among others. 
 
@@ -83,19 +82,19 @@ Understanding of SMTP Protocol
 The SMTP Protocol's major goal is to provide standards for server communication. The servers introduce themselves and the type of communication that is taking place. Errors like invalid email addresses are handled by servers as well. The recipient server, for example, will respond with an error message if the recipient address is wrong.
 
 Advantages of SMTP Protocol
-i.	SMTP allows email communication between several machines in a network to be as simple as possible.
+1.	SMTP allows email communication between several machines in a network to be as simple as possible.
 
-ii.	SMTP is built on a basic infrastructure that makes sending emails simple and rapid.
+2.	SMTP is built on a basic infrastructure that makes sending emails simple and rapid.
 
-iii.	For outgoing email messages, SMTP provides dependability, which means that if a message is not delivered successfully, the SMTP server will try to resend the message until it is sent successfully.
+3.	For outgoing email messages, SMTP provides dependability, which means that if a message is not delivered successfully, the SMTP server will try to resend the message until it is sent successfully.
 
-iv.	Organizations can use SMTP to manage outbound email messages if they have a dedicated server.
+4. Organizations can use SMTP to manage outbound email messages if they have a dedicated server.
 
-v.	Connecting to SMTP is simple and straightforward. It has a simple installation process.
+5.	Connecting to SMTP is simple and straightforward. It has a simple installation process.
 
-vi.	SMTP connections are unrestricted and can connect to any system. All we must do now is plug in the SMTP details.
+6.	SMTP connections are unrestricted and can connect to any system. All we must do now is plug in the SMTP details.
 
-vii.	It excludes any future development on our part.
+7.	It excludes any future development on our part.
 
 
 •	Conclusion
