@@ -61,13 +61,13 @@ SMTP is a push protocol that is used to transmit mail, whereas POP or IMAP (inte
 ### Message sequence:
 Three commands/reply sequences make up an SMTP transaction: The MAIL command, also known as return-path, reverse-path, bounce address, mfrom, or envelope sender, is used to determine the return address. To establish a message recipient, use the RCPT command. This command can be repeated as many times as necessary, one for each recipient. The client who wishes to send email establishes a TCP connection with the SMTP server and then transmits the message across that connection. The SMTP server is continuously listening for connections. The SMTP process starts a connection on that port as soon as it detects a TCP connection from any client (25).
 
-![](https://en.wikipedia.org/wiki/File:SMTP-transfer-model.svg)
+![SMTP Transfer Model](https://en.wikipedia.org/wiki/File:SMTP-transfer-model.svg)
 
 ### Type of connection:
 The basic protocol for sending email via the internet is SMTP (Simple Mail Transfer Protocol). Applications like Apple Mail and Outlook utilize SMTP to upload emails to mail servers, which subsequently relay them to other mail servers.
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive mail messages by mail servers and other message transfer agents.
  
-![](https://www.mailjet.com/feature/smtp-relay/)
+![SMTP Relay](https://www.mailjet.com/feature/smtp-relay/)
 
 ### Understanding of SMTP Protocol:
 The SMTP Protocol's major goal is to provide standards for server communication. The servers introduce themselves and the type of communication that is taking place. Errors like invalid email addresses are handled by servers as well. The recipient server, for example, will respond with an error message if the recipient address is wrong.
@@ -98,6 +98,7 @@ Email is quickly becoming one of the most important online services. Most intern
 
 # Group Members:
 * **Darshini Jayrambhai Ratadiya**
+
    **Student Id:** 139945208  
    **Email Id:** djratadiya@myseneca.ca
 
