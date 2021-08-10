@@ -20,20 +20,20 @@ The user agent (UA) in the SMTP paradigm is Microsoft Outlook, Netscape, Mozilla
  
 There should be two components in both the SMTP client and the SMTP server: 
 1.	Local MTA 
-2)	User Agent (UA)         
+2User Agent (UA)         
 Sender-to-receiver communication: The message is prepared and sent to the MTA by the sender's user agent. The MTA's job is to transmit mail from the sender's MTA to the receiver's MTA across the network. A client MTA is required to send emails, whereas a server MTA is required to receive emails. 
 
 ##	Working of SMTP
 
-**	Mail Composition: A user composes an electronic mail message using a Mail User Agent to send an e-mail (MUA). A software that sends and receives mail is known as a Mail User Agent. The message is divided into two parts: the body and the header. The body of the message is the most important section, whereas the header contains information like the sender and recipient addresses. The message's subject is also included in the header. The message content is analogous to a letter, and the header is analogous to an envelope with the address of the receiver.
+*	Mail Composition: A user composes an electronic mail message using a Mail User Agent to send an e-mail (MUA). A software that sends and receives mail is known as a Mail User Agent. The message is divided into two parts: the body and the header. The body of the message is the most important section, whereas the header contains information like the sender and recipient addresses. The message's subject is also included in the header. The message content is analogous to a letter, and the header is analogous to an envelope with the address of the receiver.
 
-**	Mail Submission: After creating an email, the mail client sends it to the SMTP server through SMTP on TCP port 25.
+*	Mail Submission: After creating an email, the mail client sends it to the SMTP server through SMTP on TCP port 25.
 
-**	Delivery of Mail: E-mail addresses include two parts: the recipient's username and the domain name. For instance, vraj@gmail.com, where "Vraj" is the recipient's username and "gmail.com" is the domain. If the recipient's email address's domain name differs from the sender's domain name, MSA will route the message to the Mail Transfer Agent (MTA). The MTA will look for the destination domain to transmit the email. To get the destination domain, it looks for the MX record in the Domain Name System. The MX record contains the recipient's domain's domain name and IP address. MTA connects to the exchange server to transmit the message after the record has been found.
+*	Delivery of Mail: E-mail addresses include two parts: the recipient's username and the domain name. For instance, vraj@gmail.com, where "Vraj" is the recipient's username and "gmail.com" is the domain. If the recipient's email address's domain name differs from the sender's domain name, MSA will route the message to the Mail Transfer Agent (MTA). The MTA will look for the destination domain to transmit the email. To get the destination domain, it looks for the MX record in the Domain Name System. The MX record contains the recipient's domain's domain name and IP address. MTA connects to the exchange server to transmit the message after the record has been found.
 
-**	Mail Receipt and Processing: When an incoming message is received, the exchange server sends it to the incoming server (Mail Delivery Agent), which keeps it until the user retrieves it.
+*	Mail Receipt and Processing: When an incoming message is received, the exchange server sends it to the incoming server (Mail Delivery Agent), which keeps it until the user retrieves it.
 
-**	Mail Access and Retrieval: MUA may be used to retrieve email saved in MDA (Mail User Agent). Login and password are required to access MUA.
+*	Mail Access and Retrieval: MUA may be used to retrieve email saved in MDA (Mail User Agent). Login and password are required to access MUA.
 
 ##	SMTP Fundamentals 
 
@@ -48,48 +48,48 @@ A sequence of request and response messages are sent between the client and the 
 On the server side, the user agent checks the mailboxes at predetermined intervals. If any information is received, the user will be notified. When the user attempts to view the mail, a list of mails with a brief description of each mail in the inbox appears. The contents of any message may be viewed on the terminal by choosing it.
 
 ## Some SMTP Commands: 
-** HELO - A fully qualified domain name that identifies the client to the server and is only transmitted once per session.
+* HELO - A fully qualified domain name that identifies the client to the server and is only transmitted once per session.
 
-** MAIL — Send a message with the fully qualified domain of the sender.
+* MAIL — Send a message with the fully qualified domain of the sender.
 
-**	RCPT - Follows MAIL, identifies an addressee (usually the fully qualified name of the addressee), and uses one RCPT for each addressee if there are several addressees.
+*	RCPT - Follows MAIL, identifies an addressee (usually the fully qualified name of the addressee), and uses one RCPT for each addressee if there are several addressees.
 
-**	DATA - transmit data one line at a time.
+*	DATA - transmit data one line at a time.
 
-#### Message type:
+### Message type:
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive emails by mail servers and other message transfer agents.
 SMTP is a push protocol that is used to transmit mail, whereas POP or IMAP (internet message access protocol) is used to retrieve mail at the receiver's end.
 
-#### Message sequence:
+### Message sequence:
 Three commands/reply sequences make up an SMTP transaction: The MAIL command, also known as return-path, reverse-path, bounce address, mfrom, or envelope sender, is used to determine the return address. To establish a message recipient, use the RCPT command. This command can be repeated as many times as necessary, one for each recipient. The client who wishes to send email establishes a TCP connection with the SMTP server and then transmits the message across that connection. The SMTP server is continuously listening for connections. The SMTP process starts a connection on that port as soon as it detects a TCP connection from any client (25).
                                             
  
 ( https://en.wikipedia.org/wiki/File:SMTP-transfer-model.svg )
 
-#### Type of connection:
+### Type of connection:
 The basic protocol for sending email via the internet is SMTP (Simple Mail Transfer Protocol). Applications like Apple Mail and Outlook utilize SMTP to upload emails to mail servers, which subsequently relay them to other mail servers.
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive mail messages by mail servers and other message transfer agents.
 
  
 ( https://www.mailjet.com/feature/smtp-relay/ )
 
-#### Understanding of SMTP Protocol:
+### Understanding of SMTP Protocol:
 The SMTP Protocol's major goal is to provide standards for server communication. The servers introduce themselves and the type of communication that is taking place. Errors like invalid email addresses are handled by servers as well. The recipient server, for example, will respond with an error message if the recipient address is wrong.
 
 ### Advantages of SMTP Protocol
-**	SMTP allows email communication between several machines in a network to be as simple as possible.
+*	SMTP allows email communication between several machines in a network to be as simple as possible.
 
-**	SMTP is built on a basic infrastructure that makes sending emails simple and rapid.
+*	SMTP is built on a basic infrastructure that makes sending emails simple and rapid.
 
-**	For outgoing email messages, SMTP provides dependability, which means that if a message is not delivered successfully, the SMTP server will try to resend the message until it is sent successfully.
+*	For outgoing email messages, SMTP provides dependability, which means that if a message is not delivered successfully, the SMTP server will try to resend the message until it is sent successfully.
 
-** Organizations can use SMTP to manage outbound email messages if they have a dedicated server.
+* Organizations can use SMTP to manage outbound email messages if they have a dedicated server.
 
-**	Connecting to SMTP is simple and straightforward. It has a simple installation process.
+*	Connecting to SMTP is simple and straightforward. It has a simple installation process.
 
-**	SMTP connections are unrestricted and can connect to any system. All we must do now is plug in the SMTP details.
+*	SMTP connections are unrestricted and can connect to any system. All we must do now is plug in the SMTP details.
 
-**	It excludes any future development on our part.
+*	It excludes any future development on our part.
 
 
 ##	Conclusion
