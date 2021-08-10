@@ -5,7 +5,9 @@ Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Prot
 * Text, voice, video, or images can be used to send a message.
 *	It can also deliver messages through networks that are not connected to the internet.
 
-![SMTP Protocol](https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png.webp) 
+</p>
+<p align ="center">
+  <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png.webp" alt="SMTP Protocol"/></p>
 
 SMTP's primary function is to establish communication rules between servers. The servers can identify themselves and announce the type of communication they are attempting. They also have a system in place to deal with mistakes like wrong email addresses. If the recipient address is incorrect, for example, the receiving server will respond with some sort of error message.  An email sent over an SMTP server is known as an SMTP email. Messages are retrieved from the receiver's side using POP (Post office protocol) or IMAP (Internet message protocol). SMTP is a protocol for sending emails from one domain to another that is not the user's domain. It's used to address difficulties like email IP blacklisting and deliverability, among others. 
 
