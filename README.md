@@ -104,14 +104,21 @@ Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
 ## Group Members:
 
 1. Darshini Jayrambhai Ratadiya
+
    **Student Id:** 139945208
+   
    **Email Id:** djratadiya@myseneca.ca
 
+
 2. Nishant Kant Ojha
+
    **Student Id:** 142488204
+   
    **Email Id:** nkojha@myseneca.ca
 
 3. Puja Girishkumar Kakani
+
    **Student Id:** 138344205
+   
    **Email Id:**: pgkakani@myseneca.ca
 
