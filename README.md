@@ -18,7 +18,6 @@ https://www.youtube.com/watch?v=PJo5yOtu7o8
 ## B.	Model of SMTP system 
 The user agent (UA) in the SMTP paradigm is Microsoft Outlook, Netscape, Mozilla, and so forth. MTA is used to exchange messages via TCP. Because the system administrator is responsible for setting up a local MTA, the user sending the mail does not have to deal with it. The MTA keeps a small backlog of messages to plan repeat deliveries if the recipient is unavailable. The MTA distributes mail to mailboxes, and user agents can then retrieve the information.
  
-
 There should be two components in both the SMTP client and the SMTP server: 
 1.	Local MTA 
 2)	User Agent (UA)         
@@ -61,27 +60,27 @@ On the server side, the user agent checks the mailboxes at predetermined interva
  
 
 
-Message type:
+#### Message type:
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive emails by mail servers and other message transfer agents.
 SMTP is a push protocol that is used to transmit mail, whereas POP or IMAP (internet message access protocol) is used to retrieve mail at the receiver's end.
 
-Message sequence:
+#### Message sequence:
 Three commands/reply sequences make up an SMTP transaction: The MAIL command, also known as return-path, reverse-path, bounce address, mfrom, or envelope sender, is used to determine the return address. To establish a message recipient, use the RCPT command. This command can be repeated as many times as necessary, one for each recipient. The client who wishes to send email establishes a TCP connection with the SMTP server and then transmits the message across that connection. The SMTP server is continuously listening for connections. The SMTP process starts a connection on that port as soon as it detects a TCP connection from any client (25).
                                             
  
 ( https://en.wikipedia.org/wiki/File:SMTP-transfer-model.svg )
 
-Type of connection:
+#### Type of connection:
 The basic protocol for sending email via the internet is SMTP (Simple Mail Transfer Protocol). Applications like Apple Mail and Outlook utilize SMTP to upload emails to mail servers, which subsequently relay them to other mail servers.
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive mail messages by mail servers and other message transfer agents.
 
  
 ( https://www.mailjet.com/feature/smtp-relay/ )
 
-Understanding of SMTP Protocol
+#### Understanding of SMTP Protocol:
 The SMTP Protocol's major goal is to provide standards for server communication. The servers introduce themselves and the type of communication that is taking place. Errors like invalid email addresses are handled by servers as well. The recipient server, for example, will respond with an error message if the recipient address is wrong.
 
-Advantages of SMTP Protocol
+### Advantages of SMTP Protocol
 1.	SMTP allows email communication between several machines in a network to be as simple as possible.
 
 2.	SMTP is built on a basic infrastructure that makes sending emails simple and rapid.
@@ -97,16 +96,16 @@ Advantages of SMTP Protocol
 7.	It excludes any future development on our part.
 
 
-•	Conclusion
+**	Conclusion
 Email is quickly becoming one of the most important online services. Most internet systems utilize SMTP to transmit messages from one user to another. SMTP is a push protocol that is used to transmit mail, whereas POP (post office protocol) or IMAP (internet message access protocol) are used to retrieve mail at the recipient's end. Sending emails and messages to individuals all around the world is made simple with SMTP. Bulk emailing is only feasible using SMTP servers, and it is one of the most cost-effective ways to send emails to a large group of individuals at once.
 
-•	Bibliography
+**	Bibliography
 https://www.youtube.com/watch?v=PJo5yOtu7o8
 https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/
 https://www.educba.com/smtp-protocol/
 Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
 
-•	Group Members:
+** Group Members:
 
 1)Darshini Jayrambhai Ratadiya
    Student Id: 139945208
