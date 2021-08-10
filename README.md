@@ -1,7 +1,5 @@
 # Simple Mail Transfer Protocol
 
-## Introduction
-
 Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Protocol. It is a protocol that allows you to send and receive emails. SMTP, which is a set of communication standards that enables applications to send electronic mail over the internet. It's an application that uses e-mail addresses to deliver messages to other computer users. It allows users on the same or separate computers to exchange email, and it also supports:
 *	It has the capability of sending a single message to one or many recipients.
 * Text, voice, video, or images can be used to send a message.
@@ -12,20 +10,20 @@ Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Prot
 SMTP's primary function is to establish communication rules between servers. The servers can identify themselves and announce the type of communication they are attempting. They also have a system in place to deal with mistakes like wrong email addresses. If the recipient address is incorrect, for example, the receiving server will respond with some sort of error message.  An email sent over an SMTP server is known as an SMTP email. Messages are retrieved from the receiver's side using POP (Post office protocol) or IMAP (Internet message protocol). SMTP is a protocol for sending emails from one domain to another that is not the user's domain. It's used to address difficulties like email IP blacklisting and deliverability, among others. 
 
 
-A.	Knowing about SMTP through a video:
+## A.	Knowing about SMTP through a video:
 What is SMTP-Simple Mail Transfer Protocol?
 https://www.youtube.com/watch?v=PJo5yOtu7o8
 
-B.	Model of SMTP system 
+## B.	Model of SMTP system 
 The user agent (UA) in the SMTP paradigm is Microsoft Outlook, Netscape, Mozilla, and so forth. MTA is used to exchange messages via TCP. Because the system administrator is responsible for setting up a local MTA, the user sending the mail does not have to deal with it. The MTA keeps a small backlog of messages to plan repeat deliveries if the recipient is unavailable. The MTA distributes mail to mailboxes, and user agents can then retrieve the information.
  
 
 There should be two components in both the SMTP client and the SMTP server: 
-1)	Local MTA 
+1.	Local MTA 
 2)	User Agent (UA)         
 Sender-to-receiver communication: The message is prepared and sent to the MTA by the sender's user agent. The MTA's job is to transmit mail from the sender's MTA to the receiver's MTA across the network. A client MTA is required to send emails, whereas a server MTA is required to receive emails. 
 
-C.	Working of SMTP
+## C.	Working of SMTP
 
 1.	Mail Composition: A user composes an electronic mail message using a Mail User Agent to send an e-mail (MUA). A software that sends and receives mail is known as a Mail User Agent. The message is divided into two parts: the body and the header. The body of the message is the most important section, whereas the header contains information like the sender and recipient addresses. The message's subject is also included in the header. The message content is analogous to a letter, and the header is analogous to an envelope with the address of the receiver.
 
@@ -37,16 +35,19 @@ C.	Working of SMTP
 
 5.	Mail Access and Retrieval: MUA may be used to retrieve email saved in MDA (Mail User Agent). Login and password are required to access MUA.
 
-D.	SMTP Fundamentals 
+## D.	SMTP Fundamentals 
+
 SMTP stands for Simple Mail Transfer Protocol. It is a protocol that is used at the application layer. The client who wants to send the email establishes a TCP connection with the SMTP server and then transmits the message across it. The listening mode of the SMTP server is always on. The SMTP process connects to port 25 as soon as it detects a TCP connection from any client.
 
-SENDING EMAIL
+## SENDING EMAIL
+
 A sequence of request and response messages are sent between the client and the server to send mail. A header and a body make up the message that is sent across. The mail header is terminated by a null line, and everything following the null line is considered the message body, which is a sequence of ASCII characters. The real information read by the receipt is included in the message body.
 
-RECEIVING EMAIL
+##RECEIVING EMAIL
+
 On the server side, the user agent checks the mailboxes at predetermined intervals. If any information is received, the user will be notified. When the user attempts to view the mail, a list of mails with a brief description of each mail in the inbox appears. The contents of any message may be viewed on the terminal by choosing it.
 
-Some SMTP Commands: 
+##Some SMTP Commands: 
 	HELO - A fully qualified domain name that identifies the client to the server and is only transmitted once per session.
 
 	MAIL — Send a message with the fully qualified domain of the sender.
@@ -118,40 +119,3 @@ Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
    Student Id: 138344205
    Email Id: pgkakani@myseneca.ca
 
-
-
-You can use the [editor on GitHub](https://github.com/nishantkantojha/dcf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nishantkantojha/dcf/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
