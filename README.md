@@ -102,18 +102,15 @@ Email is quickly becoming one of the most important online services. Most intern
 * Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
 
 # Group Members:
-* **Darshini Jayrambhai Ratadiya**
+**Darshini Jayrambhai Ratadiya**
+>  **Student Id:** 139945208    
+>  **Email Id:** djratadiya@myseneca.ca
 
-   **Student Id:** 139945208  
-   **Email Id:** djratadiya@myseneca.ca
+**Nishant Kant Ojha**
+>  **Student Id:** 142488204    
+>  **Email Id:** nkojha@myseneca.ca
 
-* **Nishant Kant Ojha**
-
-   **Student Id:** 142488204  
-   **Email Id:** nkojha@myseneca.ca
-
-* **Puja Girishkumar Kakani**
-
-   **Student Id:** 138344205
-   **Email Id:** pgkakani@myseneca.ca
+**Puja Girishkumar Kakani**
+> **Student Id:** 138344205     
+> **Email Id:** pgkakani@myseneca.ca
 
