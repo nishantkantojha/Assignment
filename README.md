@@ -101,7 +101,11 @@ Email is quickly becoming one of the most important online services. Most intern
 * https://www.educba.com/smtp-protocol/
 * Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
 
-# Group Members:
+# Student Assignment Submission Form
+
+I/we declare that the attached assignment is my/our own work in accordance with Seneca Academic Policy.  No part of this assignment has been copied manually or electronically from any other source (including web sites) or distributed to other students.
+
+## Group Members:
 **Darshini Jayrambhai Ratadiya**
 >  **Student Id:** 139945208    
 >  **Email Id:** djratadiya@myseneca.ca
