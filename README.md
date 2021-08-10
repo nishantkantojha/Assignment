@@ -6,7 +6,7 @@ Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Prot
 * Text, voice, video, or images can be used to send a message.
 *	It can also deliver messages through networks that are not connected to the internet.
 
-![SMTp Prptocol](https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png.webp)
+![SMTP Prptocol](https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png.webp)
 
 SMTP's primary function is to establish communication rules between servers. The servers can identify themselves and announce the type of communication they are attempting. They also have a system in place to deal with mistakes like wrong email addresses. If the recipient address is incorrect, for example, the receiving server will respond with some sort of error message.  An email sent over an SMTP server is known as an SMTP email. Messages are retrieved from the receiver's side using POP (Post office protocol) or IMAP (Internet message protocol). SMTP is a protocol for sending emails from one domain to another that is not the user's domain. It's used to address difficulties like email IP blacklisting and deliverability, among others. 
 
@@ -64,14 +64,14 @@ SMTP is a push protocol that is used to transmit mail, whereas POP or IMAP (inte
 Three commands/reply sequences make up an SMTP transaction: The MAIL command, also known as return-path, reverse-path, bounce address, mfrom, or envelope sender, is used to determine the return address. To establish a message recipient, use the RCPT command. This command can be repeated as many times as necessary, one for each recipient. The client who wishes to send email establishes a TCP connection with the SMTP server and then transmits the message across that connection. The SMTP server is continuously listening for connections. The SMTP process starts a connection on that port as soon as it detects a TCP connection from any client (25).
                                             
  
-( https://en.wikipedia.org/wiki/File:SMTP-transfer-model.svg )
+![](https://en.wikipedia.org/wiki/File:SMTP-transfer-model.svg)
 
 ### Type of connection:
 The basic protocol for sending email via the internet is SMTP (Simple Mail Transfer Protocol). Applications like Apple Mail and Outlook utilize SMTP to upload emails to mail servers, which subsequently relay them to other mail servers.
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive mail messages by mail servers and other message transfer agents.
 
  
-( https://www.mailjet.com/feature/smtp-relay/ )
+![](https://www.mailjet.com/feature/smtp-relay/)
 
 ### Understanding of SMTP Protocol:
 The SMTP Protocol's major goal is to provide standards for server communication. The servers introduce themselves and the type of communication that is taking place. Errors like invalid email addresses are handled by servers as well. The recipient server, for example, will respond with an error message if the recipient address is wrong.
