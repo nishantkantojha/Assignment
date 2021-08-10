@@ -47,18 +47,14 @@ A sequence of request and response messages are sent between the client and the 
 
 On the server side, the user agent checks the mailboxes at predetermined intervals. If any information is received, the user will be notified. When the user attempts to view the mail, a list of mails with a brief description of each mail in the inbox appears. The contents of any message may be viewed on the terminal by choosing it.
 
-##Some SMTP Commands: 
-	HELO - A fully qualified domain name that identifies the client to the server and is only transmitted once per session.
+## Some SMTP Commands: 
+** HELO - A fully qualified domain name that identifies the client to the server and is only transmitted once per session.
 
-	MAIL — Send a message with the fully qualified domain of the sender.
+** MAIL — Send a message with the fully qualified domain of the sender.
 
-	RCPT - Follows MAIL, identifies an addressee (usually the fully qualified name of the addressee), and uses one RCPT for each addressee if there are several addressees.
+**	RCPT - Follows MAIL, identifies an addressee (usually the fully qualified name of the addressee), and uses one RCPT for each addressee if there are several addressees.
 
-	DATA - transmit data one line at a time.
-
-
- 
-
+**	DATA - transmit data one line at a time.
 
 #### Message type:
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive emails by mail servers and other message transfer agents.
