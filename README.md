@@ -25,15 +25,15 @@ Sender-to-receiver communication: The message is prepared and sent to the MTA by
 
 ##	Working of SMTP
 
-1.	Mail Composition: A user composes an electronic mail message using a Mail User Agent to send an e-mail (MUA). A software that sends and receives mail is known as a Mail User Agent. The message is divided into two parts: the body and the header. The body of the message is the most important section, whereas the header contains information like the sender and recipient addresses. The message's subject is also included in the header. The message content is analogous to a letter, and the header is analogous to an envelope with the address of the receiver.
+**	Mail Composition: A user composes an electronic mail message using a Mail User Agent to send an e-mail (MUA). A software that sends and receives mail is known as a Mail User Agent. The message is divided into two parts: the body and the header. The body of the message is the most important section, whereas the header contains information like the sender and recipient addresses. The message's subject is also included in the header. The message content is analogous to a letter, and the header is analogous to an envelope with the address of the receiver.
 
-2.	Mail Submission: After creating an email, the mail client sends it to the SMTP server through SMTP on TCP port 25.
+**	Mail Submission: After creating an email, the mail client sends it to the SMTP server through SMTP on TCP port 25.
 
-3.	Delivery of Mail: E-mail addresses include two parts: the recipient's username and the domain name. For instance, vraj@gmail.com, where "Vraj" is the recipient's username and "gmail.com" is the domain. If the recipient's email address's domain name differs from the sender's domain name, MSA will route the message to the Mail Transfer Agent (MTA). The MTA will look for the destination domain to transmit the email. To get the destination domain, it looks for the MX record in the Domain Name System. The MX record contains the recipient's domain's domain name and IP address. MTA connects to the exchange server to transmit the message after the record has been found.
+**	Delivery of Mail: E-mail addresses include two parts: the recipient's username and the domain name. For instance, vraj@gmail.com, where "Vraj" is the recipient's username and "gmail.com" is the domain. If the recipient's email address's domain name differs from the sender's domain name, MSA will route the message to the Mail Transfer Agent (MTA). The MTA will look for the destination domain to transmit the email. To get the destination domain, it looks for the MX record in the Domain Name System. The MX record contains the recipient's domain's domain name and IP address. MTA connects to the exchange server to transmit the message after the record has been found.
 
-4.	Mail Receipt and Processing: When an incoming message is received, the exchange server sends it to the incoming server (Mail Delivery Agent), which keeps it until the user retrieves it.
+**	Mail Receipt and Processing: When an incoming message is received, the exchange server sends it to the incoming server (Mail Delivery Agent), which keeps it until the user retrieves it.
 
-5.	Mail Access and Retrieval: MUA may be used to retrieve email saved in MDA (Mail User Agent). Login and password are required to access MUA.
+**	Mail Access and Retrieval: MUA may be used to retrieve email saved in MDA (Mail User Agent). Login and password are required to access MUA.
 
 ##	SMTP Fundamentals 
 
@@ -77,41 +77,41 @@ For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an int
 The SMTP Protocol's major goal is to provide standards for server communication. The servers introduce themselves and the type of communication that is taking place. Errors like invalid email addresses are handled by servers as well. The recipient server, for example, will respond with an error message if the recipient address is wrong.
 
 ### Advantages of SMTP Protocol
-1.	SMTP allows email communication between several machines in a network to be as simple as possible.
+**	SMTP allows email communication between several machines in a network to be as simple as possible.
 
-2.	SMTP is built on a basic infrastructure that makes sending emails simple and rapid.
+**	SMTP is built on a basic infrastructure that makes sending emails simple and rapid.
 
-3.	For outgoing email messages, SMTP provides dependability, which means that if a message is not delivered successfully, the SMTP server will try to resend the message until it is sent successfully.
+**	For outgoing email messages, SMTP provides dependability, which means that if a message is not delivered successfully, the SMTP server will try to resend the message until it is sent successfully.
 
-4. Organizations can use SMTP to manage outbound email messages if they have a dedicated server.
+** Organizations can use SMTP to manage outbound email messages if they have a dedicated server.
 
-5.	Connecting to SMTP is simple and straightforward. It has a simple installation process.
+**	Connecting to SMTP is simple and straightforward. It has a simple installation process.
 
-6.	SMTP connections are unrestricted and can connect to any system. All we must do now is plug in the SMTP details.
+**	SMTP connections are unrestricted and can connect to any system. All we must do now is plug in the SMTP details.
 
-7.	It excludes any future development on our part.
+**	It excludes any future development on our part.
 
 
-**	Conclusion
+##	Conclusion
 Email is quickly becoming one of the most important online services. Most internet systems utilize SMTP to transmit messages from one user to another. SMTP is a push protocol that is used to transmit mail, whereas POP (post office protocol) or IMAP (internet message access protocol) are used to retrieve mail at the recipient's end. Sending emails and messages to individuals all around the world is made simple with SMTP. Bulk emailing is only feasible using SMTP servers, and it is one of the most cost-effective ways to send emails to a large group of individuals at once.
 
-**	Bibliography
+##	Bibliography
 https://www.youtube.com/watch?v=PJo5yOtu7o8
 https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/
 https://www.educba.com/smtp-protocol/
 Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
 
-** Group Members:
+## Group Members:
 
-1)Darshini Jayrambhai Ratadiya
-   Student Id: 139945208
-   Email Id: djratadiya@myseneca.ca
+1. Darshini Jayrambhai Ratadiya
+   **Student Id:** 139945208
+   **Email Id:** djratadiya@myseneca.ca
 
-2)Nishant Kant Ojha
-   Student Id: 142488204
-   Email Id: nkojha@myseneca.ca
+2. Nishant Kant Ojha
+   **Student Id:** 142488204
+   **Email Id:** nkojha@myseneca.ca
 
-3)Puja Girishkumar Kakani
-   Student Id: 138344205
-   Email Id: pgkakani@myseneca.ca
+3. Puja Girishkumar Kakani
+   **Student Id:** 138344205
+   **Email Id:**: pgkakani@myseneca.ca
 
