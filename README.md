@@ -20,7 +20,7 @@ The user agent (UA) in the SMTP paradigm is Microsoft Outlook, Netscape, Mozilla
 
 There should be two components in both the SMTP client and the SMTP server: 
 1.	Local MTA 
-2User Agent (UA)         
+2. User Agent (UA)         
 Sender-to-receiver communication: The message is prepared and sent to the MTA by the sender's user agent. The MTA's job is to transmit mail from the sender's MTA to the receiver's MTA across the network. A client MTA is required to send emails, whereas a server MTA is required to receive emails. 
 
 ##	Working of SMTP
