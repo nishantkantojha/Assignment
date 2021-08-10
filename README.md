@@ -1,6 +1,5 @@
 # Simple Mail Transfer Protocol
 
-
 Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Protocol. It is a protocol that allows you to send and receive emails. SMTP, which is a set of communication standards that enables applications to send electronic mail over the internet. It's an application that uses e-mail addresses to deliver messages to other computer users. It allows users on the same or separate computers to exchange email, and it also supports:
 *	It has the capability of sending a single message to one or many recipients.
 * Text, voice, video, or images can be used to send a message.
@@ -9,7 +8,6 @@ Simple Mail Transfer Protocol (SMTP) is an acronym for Simple Mail Transfer Prot
 ![SMTP Prptocol](https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png.webp)
 
 SMTP's primary function is to establish communication rules between servers. The servers can identify themselves and announce the type of communication they are attempting. They also have a system in place to deal with mistakes like wrong email addresses. If the recipient address is incorrect, for example, the receiving server will respond with some sort of error message.  An email sent over an SMTP server is known as an SMTP email. Messages are retrieved from the receiver's side using POP (Post office protocol) or IMAP (Internet message protocol). SMTP is a protocol for sending emails from one domain to another that is not the user's domain. It's used to address difficulties like email IP blacklisting and deliverability, among others. 
-
 
 ##	Knowing about SMTP through a video:
 What is SMTP-Simple Mail Transfer Protocol?
@@ -62,14 +60,12 @@ SMTP is a push protocol that is used to transmit mail, whereas POP or IMAP (inte
 
 ### Message sequence:
 Three commands/reply sequences make up an SMTP transaction: The MAIL command, also known as return-path, reverse-path, bounce address, mfrom, or envelope sender, is used to determine the return address. To establish a message recipient, use the RCPT command. This command can be repeated as many times as necessary, one for each recipient. The client who wishes to send email establishes a TCP connection with the SMTP server and then transmits the message across that connection. The SMTP server is continuously listening for connections. The SMTP process starts a connection on that port as soon as it detects a TCP connection from any client (25).
-                                            
- 
+
 ![](https://en.wikipedia.org/wiki/File:SMTP-transfer-model.svg)
 
 ### Type of connection:
 The basic protocol for sending email via the internet is SMTP (Simple Mail Transfer Protocol). Applications like Apple Mail and Outlook utilize SMTP to upload emails to mail servers, which subsequently relay them to other mail servers.
 For electronic mail transfer, the Simple Mail Transfer Protocol (SMTP) is an internet standard communication protocol. SMTP is used to transmit and receive mail messages by mail servers and other message transfer agents.
-
  
 ![](https://www.mailjet.com/feature/smtp-relay/)
 
@@ -91,34 +87,27 @@ The SMTP Protocol's major goal is to provide standards for server communication.
 
 *	It excludes any future development on our part.
 
-
-##	Conclusion
+#	Conclusion
 Email is quickly becoming one of the most important online services. Most internet systems utilize SMTP to transmit messages from one user to another. SMTP is a push protocol that is used to transmit mail, whereas POP (post office protocol) or IMAP (internet message access protocol) are used to retrieve mail at the recipient's end. Sending emails and messages to individuals all around the world is made simple with SMTP. Bulk emailing is only feasible using SMTP servers, and it is one of the most cost-effective ways to send emails to a large group of individuals at once.
 
-##	Bibliography
-https://www.youtube.com/watch?v=PJo5yOtu7o8
-https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/
-https://www.educba.com/smtp-protocol/
-Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
+#	Bibliography
+* https://www.youtube.com/watch?v=PJo5yOtu7o8
+* https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/
+* https://www.educba.com/smtp-protocol/
+* Video: https://www.youtube.com/watch?v=PJo5yOtu7o8
 
-## Group Members:
-
-1. Darshini Jayrambhai Ratadiya
-
-   **Student Id:** 139945208
-   
+# Group Members:
+* **Darshini Jayrambhai Ratadiya**
+   **Student Id:** 139945208  
    **Email Id:** djratadiya@myseneca.ca
 
+* **Nishant Kant Ojha**
 
-2. Nishant Kant Ojha
-
-   **Student Id:** 142488204
-   
+   **Student Id:** 142488204  
    **Email Id:** nkojha@myseneca.ca
 
-3. Puja Girishkumar Kakani
+* **Puja Girishkumar Kakani**
 
-   **Student Id:** 138344205
-   
+   **Student Id:** 138344205 
    **Email Id:**: pgkakani@myseneca.ca
 
