@@ -1,3 +1,4 @@
+<h1 style = font-size: "50px" align="center"> Hi <img src="Icons/Telegram Emojis/waving-hand.gif" width="40">, I'm Nishant</h1>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/nishantkantojha/dcf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
