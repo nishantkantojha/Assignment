@@ -115,5 +115,5 @@ Email is quickly becoming one of the most important online services. Most intern
 * **Puja Girishkumar Kakani**
 
    **Student Id:** 138344205 
-   **Email Id:**: pgkakani@myseneca.ca
+   **Email Id:** pgkakani@myseneca.ca
 
